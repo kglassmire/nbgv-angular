@@ -12,3 +12,5 @@ jobs:
     - uses: aarnott/nbgv@master
     - name: display gitversion
       run: echo "NBGV_SemVer2 $NBGV_SemVer2"
+    - name: cat nbgv.json
+      run: cat nbgv.json
